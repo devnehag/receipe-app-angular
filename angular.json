@@ -5,7 +5,7 @@
   "projects": {
     "receipe-app-angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {"skipTests": true},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -87,6 +88,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
